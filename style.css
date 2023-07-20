@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+header {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://th.bing.com/th/id/R.78bfff156142caadf568b83795f49a68?rik=wt5%2b6Z8DphzqdQ&riu=http%3a%2f%2fwww.wallpaperbetter.com%2fwallpaper%2f483%2f1021%2f86%2fsunrise-morning-fog-trees-sun-rays-2K-wallpaper.jpg&ehk=j1R7DEis%2faoEPP6j6tT8pzWi3dwn1ifj5rfZzq7aSmY%3d&risl=&pid=ImgRaw&r=0');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 350px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+h2 {
+    color: white;
+    font-style: oblique;
+}
+.search {
+    background-color: white;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 0.5rem 10rem;
+}
+
+.search:focus {
+    outline: none;
+}
+  
+#place {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+  
+img {
+    
+    margin: 1rem;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 3px;
+    width: 400px;
+}
+
+.bg {
+    z-index: -1;
+    filter: blur(0px);
+  }
+  
+  .loading-text {
+    font-size: 50px;
+    color: #fff;
+  }
