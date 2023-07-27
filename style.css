@@ -60,5 +60,15 @@ img {
   
   .loading-text {
     font-size: 50px;
-    color: #fff;
+    color: #f2c7c7;
+  }
+
+  @media (max-width:480px) {
+    .search {
+        width: 50%;
+    }
+
+    img {
+        width: 150px;
+    }
   }
