@@ -65,10 +65,11 @@ img {
 
   @media (max-width:480px) {
     .search {
-        padding: 0.5rem 3rem;
+        padding: 0.5rem 2rem;
     }
 
     img {
-        width: 150px;
+        width: 160px;
+        margin: 0.3rem;
     }
   }
